@@ -16,11 +16,11 @@ void top() {
 
 
 void branch_right() {
-	cout << "|               / /" << endl;
-	cout << "|               \/" << endl;
-	cout << "|      _____/___/" << endl;
-	cout << "|_____/         \ " << endl;
-	cout << "|/              /\_" << endl;
+		cout << "                                          |               / /" << endl;
+		cout << "                                          |               \/" << endl;
+		cout << "                                          |      _____/___/" << endl;
+		cout << "                                          |_____/         \ " << endl;
+		cout << "                                          |/              /\_" << endl;
 
 }
 
