@@ -8,7 +8,7 @@ by <your name>*/
 using namespace std;
 
 
-//TO DO: create a function that would be able to create a top for the tree
+//TO DO: create a function that would be able to create a top  for the tree
 void top() {
 	cout << "                     _____________________________" << endl;
 	return;
