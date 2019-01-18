@@ -30,7 +30,7 @@ void branch_left() {
 }
 
 //TO DO: make so this function draws differnt size of the tree dependant on the user input. And also Make it so it utilizes the branch 
-void tree(int height, int width, int branches) {
+void tree(int height, int branches) {
 	for (int i = 0; i < 5; i++) {
 		cout << "                               |         |" << endl;
 
@@ -55,8 +55,6 @@ int main() {
 	int branches;
 	cout << "How Long is your tree:  ";
 	cin >> height;
-	cout << "How Wide is your tree:  ";
-	cin >> width;
 	cout << "How many branches does it have:  ";
 	cin >> branches;
 
@@ -69,7 +67,7 @@ int main() {
 
 
 	top();
-	tree(height, width, branches);
+	tree(height, branches);
 	root();
 
 	int count = 0;
